@@ -1,0 +1,17 @@
+###
+# lots to do ...
+
+
+#!/bin/bash 
+
+game=ioquake3
+ans=yes
+
+whereis $game
+echo Ioquake is in directory $game want to launch server?
+read
+if 
+nohup /$game/ioquake3.ded.x64 +set fs_game edawn +exec server.cfg +set g_gametype &
+
+
+fi
